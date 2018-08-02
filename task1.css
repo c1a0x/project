@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background-image: url('f0.jpg');
+    background-attachment: fixed;
+}
+.header {
+    position: fixed;
+    top: 0;
+    height: 45px;
+    background: midnightblue;
+    width: 100%;
+}
+.floor {
+    position: relative;
+    bottom: 0;
+    left: 1%;
+    height: 45px;
+    background: midnightblue;
+    width: 98%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.tablebg {
+    position: relative;
+    margin-bottom: 55px;
+    top: 60px;
+    width: 34%;
+    left: 33%;
+    background: ghostwhite;
+    border: 2px;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0.8;
+    height: 800px;
+}
+.table {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.rowhead {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.row {
+    grid-row-start: 2;
+    grid-row-end: 5;
+    border: solid black;
+    border-width: 1px 0 0 0;
+}
+.grid1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.grid2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border: solid black;
+    border-width: 0 0 0 1px;
+}
+.grid3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    border: solid black;
+    border-width: 0 0 0 1px;
+}
+.text {
+    position: fixed;
+    left: 34%;
+    top: 5px;
+    color: white;
+    font-size: 2.1875em;
+    font-weight: bold;
+}
+button {
+    position: fixed;
+    width: 50px;
+    height: 25px;
+    right: 34%;
+    top: 10px;
+}
